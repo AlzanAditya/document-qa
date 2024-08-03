@@ -42,6 +42,8 @@ def main():
         st.header("Sisa usia anda")
         st.write(f"- **{random.randint(3,40)}** Tahun")
         st.write("Selamat menjalani sisa hidup :)")
+        st.write("")
+        st.write("")
         st.write("ini cuma candaan aja jangan di bawa hati gitu ahh")
         st.write("-- ARUZAN ")
 
