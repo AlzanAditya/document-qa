@@ -40,7 +40,10 @@ def main():
         st.write(f"- **{seconds}** detik")
         
         st.header("Sisa usia anda")
-        st.write(f"- **{random.randint(3,40)}** Tahun\nSelamat menjalani hidup :)")
+        st.write(f"- **{random.randint(3,40)}** Tahun")
+        st.write("Selamat menjalani sisa hidup :)")
+        st.write("ini cuma candaan aja jangan di bawa hati gitu ahh")
+        st.write("-- ARUZAN ")
 
 if __name__ == "__main__":
     main()
