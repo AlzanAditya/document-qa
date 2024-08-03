@@ -31,7 +31,7 @@ def main():
 
         # Tampilkan hasil
         st.header("Hasil Perhitungan")
-        st.write(f"Total waktu yang telah terlewat sejak tanggal lahir Anda:")
+        st.write(f"Total waktu yang telah terlewat sejak tanggal lahir kamu:")
         st.write(f"- **{years}** tahun")
         st.write(f"- **{months}** bulan")
         st.write(f"- **{days}** hari")
@@ -39,13 +39,13 @@ def main():
         st.write(f"- **{minutes}** menit")
         st.write(f"- **{seconds}** detik")
         
-        st.header("Sisa usia anda")
+        st.header("Sisa usia kamu:")
         st.write(f"- **{random.randint(3,40)}** Tahun")
         st.write("Selamat menjalani sisa hidup :)")
         st.write("")
         st.write("")
-        st.write("GABUT NJIR GW, PENGEN PULANG.....")
-        st.write("-- ARUZAN ")
+        st.write("gabut njir gw, pengen pulang.....")
+        st.write("-- zan ")
 
 if __name__ == "__main__":
     main()
