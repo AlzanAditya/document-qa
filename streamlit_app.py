@@ -1,4 +1,5 @@
 import streamlit as st
+import random
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
@@ -39,7 +40,7 @@ def main():
         st.write(f"- **{seconds}** detik")
         
         st.header("Sisa usia anda")
-        st.write(f"- **{years}** Tahun\nSelamat menjalani hidup :)")
+        st.write(f"- **{random.randint(3,40)}** Tahun\nSelamat menjalani hidup :)")
 
 if __name__ == "__main__":
     main()
