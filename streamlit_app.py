@@ -44,7 +44,7 @@ def main():
         st.write("Selamat menjalani sisa hidup :)")
         st.write("")
         st.write("")
-        st.write("ini cuma candaan aja jangan di bawa hati gitu ahh")
+        st.write("GABUT NJIR GW, PENGEN PULANG.....")
         st.write("-- ARUZAN ")
 
 if __name__ == "__main__":
