@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+
 # Membuat data dalam bentuk dictionary
 data = {
     'Kata': [
