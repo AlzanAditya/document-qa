@@ -24,7 +24,7 @@ def main():
     birth_date_input = st.date_input("Masukkan tanggal lahir Anda", value=datetime(2000, 1, 1))
     
     # Hitung total waktu yang telah terlewat
-    if st.button():
+    if st.button(Hitung):
         birth_date = datetime.combine(birth_date_input, datetime.min.time())
         years, months, days, hours, minutes, seconds = calculate_time_elapsed(birth_date)
 
