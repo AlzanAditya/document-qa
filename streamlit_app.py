@@ -18,7 +18,7 @@ def calculate_time_elapsed(birth_date):
 
 # Aplikasi Streamlit
 def main():
-    st.title("Kalkulator Waktu yang Telah Terlewat Sejak Tanggal Lahir")
+    st.title("Kalkulator Waktu")
 
     # Input tanggal lahir
     birth_date_input = st.date_input("Masukkan tanggal lahir Anda", value=datetime(2000, 1, 1))
@@ -37,6 +37,9 @@ def main():
         st.write(f"- **{hours}** jam")
         st.write(f"- **{minutes}** menit")
         st.write(f"- **{seconds}** detik")
+        
+        st.header("Sisa usia anda")
+        st.write(f"- **{years}** Tahun\nSelamat menjalani hidup :)")
 
 if __name__ == "__main__":
     main()
