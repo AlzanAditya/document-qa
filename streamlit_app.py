@@ -22,7 +22,7 @@ data = {
     'Arti': [
         'Saya', 'Anda', 'Orang itu/beliau', 'Orang itu/beliau', 'Saudara-bapak-ibu', 'Akhiran untuk panggilan anak-anak', 
         'Orang', 'Guru, dosen, pengajar', 'Guru, dosen', 'Pelajar', 'Karyawan perusahaan', 
-        'Karyawan perusahaan (dipakai bersama nama perusahaan)', 'Karyawan bank', 'Dokter', 
+        'Karyawan perusahaan', 'Karyawan bank', 'Dokter', 
         'Peneliti', 'Universitas', 'Rumah sakit', 'Siapa', '--tahun', 'Berapa umurnya', 
         'Ya', 'Tidak, bukan', 'Perkenalkan', 'Datang dari, Berasal dari', 'Salam kenal', 
         'Permisi, maaf', 'Siapa namanya?', 'Ini bapak〜/ Ini ibu, sdr.', 'Inggris', 'India', 
@@ -39,7 +39,7 @@ data = {
     ],
     'Keterangan': [
     '', '', '', 'lebih sopan dari あの ひと', ' akhiran untuk mengekspresikan kesopanan yang diletakkan di belakang nama orang', 'akhiran yang dipakai untuk anak laki-laki dan anak perempuan sebagai pengganti 〜 さん yang diletakkan di belakang nama anak', 'akhiran yang menyatakan warga negara. contoh: アメリカじん (orang amerika)', 'tidak dipakai jika tidak menyebut pekerjaan sendiri', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', 
+    'dipakai bersama nama perusahaan', '', '', '', '', '', '', '', '', '', 
     '', 'ucapan salam pada waktu pertama kali berkenalan', '', 
     'ucapan terakhir untuk perkenalan diri', 
     'digunakan ketika bertanya tentang hal yang pribadi seperti nama, alamat, dan sebagainya', 
