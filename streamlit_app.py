@@ -38,7 +38,7 @@ data = {
         'Tai', 'Doitsu', 'Chuugoku'
     ],
     'Keterangan': [
-    '', '', '', '', '', '', '', '', '', '', 
+    '', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', '', '', '', '', '', '', 
     '', 'ucapan salam pada waktu pertama kali berkenalan', '', 
     'ucapan terakhir untuk perkenalan diri', 
