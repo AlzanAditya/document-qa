@@ -47,13 +47,6 @@ data = {
     ]
 }
 
-
-print(len(data['Arti']),
-          len(data['Kanji']),
-          len(data['Kata']),
-          len(data['Keterangan']),
-          len(data['Romaji']))
-# Membuat DataFrame dari dictionary
 df = pd.DataFrame(data)
 
 st.title("Kosakata - Bab 1")
@@ -64,13 +57,21 @@ show_keterangan = st.checkbox('Tampilkan Keterangan', value=True)
 
 
 # Menampilkan tabel dengan atau tanpa kolom Romaji
-if show_romaji and show_keterangan:
+if show_romaji and show_kanji and show_keterangan:
     st.table(df)
-elif show_romaji:
+elif show_romaji and show_kanji:
     st.table(df.drop(columns=['Keterangan']))
-elif show_keterangan:
+elif show_romaji and show_keterangan:
+    st.table(df.drop(columns=['Kanji']))
+elif show_kanji and show_keterangan:
     st.table(df.drop(columns=['Romaji']))
-else:
+elif show_romaji:
+    st.table(df.drop(columns=['Kanji', 'Keterangan']))
+elif show_kanji:
     st.table(df.drop(columns=['Romaji', 'Keterangan']))
+elif show_keterangan:
+    st.table(df.drop(columns=['Romaji', 'Kanji']))
+else:
+    st.table(df.drop(columns=['Romaji', 'Kanji', 'Keterangan']))
 
 st.write("by aru")
