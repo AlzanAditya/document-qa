@@ -32,6 +32,8 @@ df = pd.DataFrame(data)
 # Opsi untuk menampilkan Romaji atau tidak
 show_romaji = st.checkbox('Tampilkan Romaji', value=True)
 
+st.title("Kotoba - Bab 1")
+st.write("by aru")
 # Menampilkan tabel dengan atau tanpa kolom Romaji
 if show_romaji:
     st.table(df)
