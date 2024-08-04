@@ -49,7 +49,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-st.write("untuk pengalaman yang lebih baik gunakan fitur 'tampilan dekstop' di chrome, dan masuk ke setting lalu aktifkan 'wide mode' :)")
+st.write("untuk pengalaman yang lebih baik gunakan fitur 'tampilan dekstop' di chrome, dan masuk ke setting (titik 3 pada pojok kanan, sebelah gambar kucing) lalu aktifkan 'wide mode' :)")
 
 # Opsi untuk menampilkan Romaji atau tidak
 show_kata = st.checkbox('Tampilkan Kata', value=True)
