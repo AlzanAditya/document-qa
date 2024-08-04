@@ -38,7 +38,7 @@ data = {
         'Tai', 'Doitsu', 'Chuugoku'
     ],
     'Keterangan': [
-    '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', 'lebih sopan dari あの ひと', ' akhiran untuk mengekspresikan kesopanan yang diletakkan di belakang nama orang', 'akhiran yang dipakai untuk anak laki-laki dan anak perempuan sebagai pengganti 〜 さん yang diletakkan di belakang nama anak', 'akhiran yang menyatakan warga negara. contoh: アメリカじん (orang amerika)', 'tidak dipakai jika tidak menyebut pekerjaan sendiri', '', '', '',
     '', '', '', '', '', '', '', '', '', '', 
     '', 'ucapan salam pada waktu pertama kali berkenalan', '', 
     'ucapan terakhir untuk perkenalan diri', 
