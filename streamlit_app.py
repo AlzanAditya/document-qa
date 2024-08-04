@@ -5,21 +5,21 @@ import pandas as pd
 data = {
     'Kata': [
         'きょうし', 'がくせい', 'かいしゃいん', 'しゃいん', 'ぎんこういん', 
-        'いしゃ', 'けんきゅうしゃ', 'だいがく', 'びょういん', 'だれ / どなた', 
+        'いしゃ', 'けんきゅうしゃ', 'だいがく', 'びょういん', 'だれ', 'どなた',
         'さい', 'なんさい / おいくつ', 'はい', 'いいえ', 'はじめまして', 
         'からきました', 'どうぞよろしくおねがいします', 'イギリス', 'インド', 
         'ブラジル', 'にほん', 'タイ', 'ドイツ', 'ちゅごく'
     ],
     'Arti': [
         'Guru atau dosen', 'Mahasiswa', 'Karyawan', 'Karyawan (beserta perusahaannya)', 'Pegawai bank',
-        'Dokter', 'Peneliti', 'Universitas', 'Rumah sakit', 'Siapa / sopannya',
+        'Dokter', 'Peneliti', 'Universitas', 'Rumah sakit', 'Siapa (biasa)', 'Siapa (Sopan)',
         'Tahun', 'Umur berapa', 'Ya', 'Tidak, bukan', 'Perkenalkan',
         'Berasal dari', 'Salam kenal', 'Inggris', 'India',
         'Brasil', 'Jepang', 'Thailand', 'Jerman', 'Cina'
     ],
     'Romaji': [
         'kyoushi', 'gakusei', 'kaishain', 'shain', 'ginkouin',
-        'isha', 'kenkyuusha', 'daigaku', 'byouin', 'dare / donata',
+        'isha', 'kenkyuusha', 'daigaku', 'byouin', 'dare', 'donata',
         'sai', 'nansai / oikutsu', 'hai', 'iie', 'hajimemashite',
         'kara kimashita', 'douzo yoroshiku onegaishimasu', 'Igirisu', 'Indo',
         'Burajiru', 'Nihon', 'Tai', 'Doitsu', 'Chuugoku'
