@@ -49,13 +49,13 @@ data = {
 
 df = pd.DataFrame(data)
 
-st.title("Kosakata - Bab 1")
 
 # Opsi untuk menampilkan Romaji atau tidak
 show_romaji = st.checkbox('Tampilkan Romaji', value=True)
 show_keterangan = st.checkbox('Tampilkan Keterangan', value=True)
 show_kanji = st.checkbox('Tampilkan Kanji', value=True)
 
+st.title("Kosakata - Bab 1")
 
 # Menampilkan tabel dengan atau tanpa kolom Romaji
 if show_romaji and show_kanji and show_keterangan:
