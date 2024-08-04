@@ -58,21 +58,22 @@ show_kanji = st.checkbox('Tampilkan Kanji', value=True)
 st.title("Kosakata - Bab 1")
 
 # Menampilkan tabel dengan atau tanpa kolom Romaji
-if show_romaji and show_kanji and show_keterangan:
-    st.table(df)
-elif show_romaji and show_kanji:
-    st.table(df.drop(columns=['Keterangan']))
-elif show_romaji and show_keterangan:
-    st.table(df.drop(columns=['Kanji']))
-elif show_kanji and show_keterangan:
-    st.table(df.drop(columns=['Romaji']))
-elif show_romaji:
-    st.table(df.drop(columns=['Kanji', 'Keterangan']))
-elif show_kanji:
-    st.table(df.drop(columns=['Romaji', 'Keterangan']))
-elif show_keterangan:
-    st.table(df.drop(columns=['Romaji', 'Kanji']))
+columns_to_show = []
+if show_kata:
+    columns_to_show.append('Kata')
+if show_kanji:
+    columns_to_show.append('Kanji')
+if show_arti:
+    columns_to_show.append('Arti')
+if show_romaji:
+    columns_to_show.append('Romaji')
+if show_keterangan:
+    columns_to_show.append('Keterangan')
+
+# Menampilkan tabel sesuai dengan kolom yang dipilih
+if columns_to_show:
+    st.table(df[columns_to_show])
 else:
-    st.table(df.drop(columns=['Romaji', 'Kanji', 'Keterangan']))
+    st.write("Tidak ada kolom yang dipilih untuk ditampilkan.")
 
 st.write("by aru")
