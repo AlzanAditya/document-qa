@@ -4,7 +4,7 @@ import pandas as pd
 # Membuat data dalam bentuk dictionary
 data = {
     'Kata': [
-        'わたし', 'あなた', 'あの ひと／あの かた', 'ーさん', '～ちゃん', '～じん', 
+        'わたし', 'あなた', 'あの ひと', 'あの かた', 'ーさん', '～ちゃん', '～じん', 
         'せんせい', 'きょうし', 'がくせい', 'かいしゃいん', 'しゃいん', 'ぎんこういん', 
         'いしゃ', 'けんきゅうしゃ', 'だいがく', 'びょういん', 'だれ（どなた）', '～さい', 
         'なんさい（おいくつ）', 'はい', 'いいえ', 'はじめまして', 'からきました', 
@@ -13,14 +13,14 @@ data = {
         'タイ', 'ドイツ', 'ちゅうごく'
     ],
     'Kanji': [
-        '私', '', 'あの人／あの方', '', '', '', 
+        '私', '', 'あの人', 'あの方', '', '', '', 
         '先生', '教師', '学生', '会社員', '社員', '銀行員', 
         '医者', '研究者', '大学', '病院', '', '～歳', 
         '何歳', '', '', '', '', '', '', '',
         '', '', '', '', '', '', '', ''
     ],
     'Arti': [
-        'Saya', 'Anda', 'Orang itu/beliau', 'Saudara-bapak-ibu', 'Akhiran untuk panggilan anak-anak', 
+        'Saya', 'Anda', 'Orang itu/beliau', 'Orang itu/beliau', 'Saudara-bapak-ibu', 'Akhiran untuk panggilan anak-anak', 
         'Orang', 'Guru, dosen, pengajar', 'Guru, dosen', 'Pelajar', 'Karyawan perusahaan', 
         'Karyawan perusahaan (dipakai bersama nama perusahaan)', 'Karyawan bank', 'Dokter', 
         'Peneliti', 'Universitas', 'Rumah sakit', 'Siapa', '--tahun', 'Berapa umurnya', 
@@ -29,7 +29,7 @@ data = {
         'Brasil', 'Jepang', 'Thailand', 'Jerman', 'Cina'
     ],
     'Romaji': [
-        'watashi', 'anata', 'ano hito/ano kata', '-san', '-chan', '-jin', 
+        'watashi', 'anata', 'ano hito', 'ano kata', '-san', '-chan', '-jin', 
         'sensei', 'kyoushi', 'gakusei', 'kaishain', 'shain', 'ginkouin', 
         'isha', 'kenkyuusha', 'daigaku', 'byouin', 'dare (donata)', '-sai', 
         'nansai (oikutsu)', 'hai', 'iie', 'hajimemashite', 'kara kimashita', 
