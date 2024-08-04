@@ -49,11 +49,14 @@ data = {
 
 df = pd.DataFrame(data)
 
+st.write("untuk pengalaman yang lebih baik gunakan fitur 'tampilan dekstop'di chrome, dan masuk ke setting lalu aktifkan 'wide mode :)'")
 
 # Opsi untuk menampilkan Romaji atau tidak
-show_romaji = st.checkbox('Tampilkan Romaji', value=True)
-show_keterangan = st.checkbox('Tampilkan Keterangan', value=True)
-show_kanji = st.checkbox('Tampilkan Kanji', value=True)
+show_kata = st.checkbox('Tampilkan Kata', value=True)
+show_kanji = st.checkbox('Tampilkan Kanji', value=False)
+show_arti = st.checkbox('Tampilkan Arti', value=True)
+show_romaji = st.checkbox('Tampilkan Romaji', value=False)
+show_keterangan = st.checkbox('Tampilkan Keterangan', value=False)
 
 st.title("Kosakata - Bab 1")
 
