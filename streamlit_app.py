@@ -11,7 +11,7 @@ data = {
         'ブラジル', 'にほん', 'タイ', 'ドイツ', 'ちゅごく'
     ],
     'Arti': [
-        'Guru atau dosen', 'Mahasiswa', 'Karyawan', 'Karyawan beserta perusahaannya', 'Pegawai bank',
+        'Guru atau dosen', 'Mahasiswa', 'Karyawan', 'Karyawan (beserta perusahaannya)', 'Pegawai bank',
         'Dokter', 'Peneliti', 'Universitas', 'Rumah sakit', 'Siapa / sopannya',
         'Tahun', 'Umur berapa', 'Ya', 'Tidak, bukan', 'Perkenalkan',
         'Berasal dari', 'Salam kenal', 'Inggris', 'India',
